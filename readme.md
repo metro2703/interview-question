@@ -9,7 +9,7 @@
 > 001: 实现下面这道题目中的machine函数
 
 ```javascript
-function machine() {
+function machine(name) {
     
 }
 machine('thewall').execute() 
@@ -32,4 +32,4 @@ machine('thewall').waitFirst(5).do('eat').execute();
 
 ## 历史汇总
 
-[前端面试题及答案汇总]()
+[前端面试题及答案汇总](https://github.com/metro2703/interview-question/blob/master/summary/collection.md)
