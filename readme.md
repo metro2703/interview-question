@@ -21,6 +21,7 @@ if(a == 1 && a == 2 && a == 3){
 
 2019-03-21
 > 001: 实现下面这道题目中的machine函数
+
 解析: [001](https://github.com/metro2703/interview-question/issues/1)
 
 
