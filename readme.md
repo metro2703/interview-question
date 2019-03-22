@@ -4,30 +4,24 @@
 
 ## 最新整理
 
-2019-03-21
+2019-03-22
 
-> 001: 实现下面这道题目中的machine函数
+> 001: 以下代码 a 在什么情况下会打印 1
 
 ```javascript
-function machine(name) {
-    
+var a = ?;
+if(a == 1 && a == 2 && a == 3){
+ 	console.log(1);
 }
-machine('thewall').execute() 
-// start thewall
-machine('thewall').do('eat').execute(); 
-// start thewall
-// thewall eat
-machine('thewall').wait(5).do('eat').execute();
-// start thewall
-// wait 5s（这里等待了5s）
-// thewall eat
-machine('thewall').waitFirst(5).do('eat').execute();
-// wait 5s
-// start thewall
-// thewall eat
 ```
 
 欢迎在Issue区留下答案
+
+## 本周汇总
+
+2019-03-21
+> 001: 实现下面这道题目中的machine函数
+解析: [001](https://github.com/metro2703/interview-question/issues/1)
 
 
 ## 历史汇总
